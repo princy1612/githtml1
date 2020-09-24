@@ -1,7 +1,7 @@
 #!groovy
 node {
     stage('Git checkout') { // for display purposes
-        git 
+       checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '269efb98-9ad9-4f37-8c84-d1580f7a3585', url: 'https://github.com/princy1612/githtml1.git']]])
     }
     stage('Smoke') {
         try {
