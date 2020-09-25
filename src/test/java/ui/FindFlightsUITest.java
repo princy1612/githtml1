@@ -11,8 +11,8 @@ import steps.ui.FindFlightsUISteps;
 
 @RunWith(SerenityRunner.class)
 public class FindFlightsUITest {
-    @Managed
-    chromeDriver driver;
+  //  @Managed
+    //chromeDriver driver;
 
     @Steps
     FindFlightsUISteps findFlightsUISteps;
