@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.annotations.WithTag;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import steps.ui.FindFlightsUISteps;
 
 @RunWith(SerenityRunner.class)
